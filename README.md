@@ -1,6 +1,5 @@
 # Data Analytics Assignments and Projects( Top Mentor)
-
-- ### Assignments
+## Assignments
 This section includes practice assignments completed as part of structured learning and technical skill development.
 ## Skills & Tools Covered
 - Advanced Excel
@@ -16,5 +15,4 @@ This section includes practice assignments completed as part of structured learn
 ## Purpose
 The purpose of this repository is to provide a consolidated record of my completed academic and practical work 
 for technical evaluation and verification.
-
-# Mangesh REshme (Cohort 106 )
+## Mangesh Reshme (Cohort 106 )
