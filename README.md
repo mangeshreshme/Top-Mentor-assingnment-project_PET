@@ -5,7 +5,7 @@ This section includes practice assignments completed as part of structured learn
 - Advanced Excel
 - SQL
 - Power BI
-- Python
+- Python (with pycharm)
 - Data Cleaning
 - Data Visualization
 - Dashboard Development
