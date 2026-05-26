@@ -1,0 +1,26 @@
+ER Diagram Project - Library Management System
+SQL Tables
+CREATE TABLE Member(member_id INT PRIMARY KEY, name VARCHAR(50),address VARCHAR(100),phone VARCHAR(15));
+
+CREATE TABLE Book(book_id INT PRIMARY KEY,title VARCHAR(50),author VARCHAR(50),
+price DECIMAL(10,2));
+ ;
+CREATE TABLE Issue (issue_id INT PRIMARY KEY,member_id INT,book_id INT,issue_date DATE,return_date DATE, );
+Entities
+Member, Book, Issue
+Attributes
+Member: member_id (PK), name, address, phone
+Book: book_id (PK), title, author, price
+Issue: issue_id (PK), issue_date, return_date
+Relationships
+Member borrows Issue (1:M)
+Book issued_for Issue (1:M)
+ER Diagram (Exam Style)
+[Member] (1) ----< 	[Issue] >---- (1) 	[Book] 
+
+   |                     		    |			   |
+member_id (PK)         	issue_id (PK)		book_id (PK)
+name                       	 issue_date		title
+address             		return_date		 author	
+phone						price
+						
